@@ -1,0 +1,37 @@
+prop state -> prop -like form e k compoent - componet ma je add kriee prop like details
+state-> heading is  harry to headding e state
+index.jse ntery point
+JSX
+function base comonet most use -jsx-html that coverd from js
+class ni jagya e classname ,for lakhvu hoy to htmlFor camel case html na loa mate 
+and class bse component 
+vs code ma emmet kriee to aabrevation automatic avse settion ma serch
+add key -javascript
+value-javascriptreact
+nodemodule i in git ignor
+after complied we ca run on mobile  uisng your network
+
+ES7 short cut for all 
+defulat value mate ek mjs mathi bija mjs ma to run that mjs
+
+Navbar .js -> component base react so write rfc and tab
+props means je aapde as a attr or property pass krile like this this will affect accrodinglt to that component like koi compooent ma variable pass kriee e ema string ,object pn pass tay,link 
+USeState_>react hook
+
+in react we cannot update text like text="dsa" we have to create funation for updating state
+
+npm install react-router-dom for routing
+
+open with live server mate open only build folder it will run on live server ,click go live bottom roght vs code
+
+
+ to deploy in github 
+https://create-react-app.dev/docs/deployment 
+followsyep
+Step 1: Add homepage to package.json to step 3 
+after publish go to repository-> setting -> pages -> link is provided github 
+package.json 
+  // "homepage": "http://shreyaparekh.github.io/ReactCodeWithHarry", 
+inscript
+"predeploy": "npm run build",
+    "deploy": "gh-pages -d build",

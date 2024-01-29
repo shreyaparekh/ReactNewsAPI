@@ -1,0 +1,48 @@
+npx create-react-app newsapp terminal
+
+install ES7 react/redux for classbased
+when typr rcc and hit entrer autocompllate class bassed component created
+class based ma render fun banbai ne,fun ma directly return
+rcep with proper type creaqtef
+
+to check loaf=ding goto network in console select slow 3g inted if no trhotling
+
+impt and tab so import prop type
+pts tab then it will fetch proptype.string
+
+alt+shift multiple cursur support , if want to chnge all row with course,,click with mouse nd alt +shift to below
+
+
+react router - npm install react-router-dom--save
+
+for infinite scroll -> npm i react-infinite-scroll-component
+https://codesandbox.io/p/sandbox/yk7637p62z?file=%2Fsrc%2Findex.js%3A3%2C1-3%2C62
+
+createbrnach from main/origin
+
+top loding bar  npm i react-top-loading-bar
+
+its possible to application in we can use some of part of code as classbased component and some of code has function based component
+function based componet -> defultpopr,and proptype are written in at the end while in classed based its written at top
+
+MERN-
+mongo  -> document database, easily alling with javascript ,and sim,ilar to js 
+express-> node js web framework
+react ->js
+node js -> premierjavascript web server
+for develop powerfull
+
+crate react -> npx create-react-app inotebook
+some of plan that return from cloud.
+create notes nad save in cloud and retrive.
+another user not able to view nots of us sata saved in mongo db,create api uing express server.. seprate project for frond end and api node moudle is diff
+
+backedn-> npm init
+npm i express,npm i mongoose((abstraction layer on top of mongo db),helful to connect nodejs app)
+https://mongoosejs.com/
+mongodb://localhost:27017
+
+run mongo ->npm i -D nodemon
+-D-> dev dependenicy 
+nodemon .\index.js
+npm install -g nodemon (install)

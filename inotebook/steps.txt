@@ -1,0 +1,47 @@
+const mongoose = require('mongoose');
+const mongoURI = "mongodb://localhost:27017/admin";
+
+const connectToMongo = async () => {
+    let retries = 3;
+    while (retries > 0) {
+        try {
+            await mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
+            console.log("Connected to MongoDB successfully");
+            return;
+        } catch (error) {
+            console.error("Error connecting to MongoDB:", error);
+            retries--;
+            console.log(`Retrying connection. Remaining attempts: ${retries}`);
+            await new Promise(resolve => setTimeout(resolve, 5000)); // 5 seconds delay
+        }
+    }
+    console.error("Failed to connect to MongoDB after multiple attempts.");
+}
+
+
+module.exports = connectToMongo;
+
+
+// const connectToMongo = require('./db');
+// connectToMongo();
+
+
+
+// index.js
+const connectToMongo = require('./db');
+
+async function startApp() {
+    try {
+        await connectToMongo();
+        // Your application logic here
+    } catch (error) {
+        console.error("Error starting the application:", error);
+    }
+}
+
+startApp();
+
+
+npm i init 
+npm i express
+npm i mongoose
