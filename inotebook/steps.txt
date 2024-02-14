@@ -45,3 +45,16 @@ startApp();
 npm i init 
 npm i express
 npm i mongoose
+ hash password with salt salt is added some extra char from backend so it sbcnnot hack easily .so for that we are using bcryptjs 
+install-> npm i bcryptjs 
+jsonwebtoken  npm i jsonwebtoken -> verify to user , like if user login password to website then it return one token and next if he login again it only verify this token (secure communication between client server)
+
+NOW INOTEBOOK PROJECT 
+INSTALL PACKES
+1_ npm i react-router-dom concurrently
+concurrently-> if we have to start one or more server  so we can run multiple server(diff terminal)
+so in main project if we write comman npm run both then it will run backend server also
+
+shortcut for creat component rfce
+install react router dom npm i react-router-dom ,go into react router quick start copy paste code
+reactapp->state,component

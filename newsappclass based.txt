@@ -46,3 +46,5 @@ run mongo ->npm i -D nodemon
 -D-> dev dependenicy 
 nodemon .\index.js
 npm install -g nodemon (install)
+
+express validatior
